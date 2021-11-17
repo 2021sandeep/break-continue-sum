@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main()
+{
+    int num,sum=0,c=1;
+    while(c<3)
+{
+printf("Enter the number\n");
+scanf("%d",&num);
+if(num>=0)
+{
+   sum=num+sum;
+     c++;
+}
+else
+{
+ c++;
+continue;
+
+}
+}
+ printf("sum of num is =%d",sum);  
+}
